@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wireless Earbuds Comparison</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Compare Wireless Earbuds</h1>
+  <p class="intro">Explore and compare top wireless earbuds based on features and ratings to find your perfect fit.</p>
+
+  <div class="container">
+    <div class="card best-product">
+      <span class="badge">Top Pick</span>
+      <img src="images/download.jpeg" alt="AirBuds Pro X" />
+      <h2>AirBuds Pro X</h2>
+      <p><strong>Price:</strong> $129</p>
+      <p><strong>Battery Life:</strong> 24 hours</p>
+      <p><strong>Water Resistance:</strong> IPX7</p>
+      <p><strong>Rating:</strong> ⭐⭐⭐⭐⭐</p>
+      <button class="add-btn" onclick="addToCart('AirBuds Pro X')">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="images/download (1).jpeg" alt="SonicPods Lite" />
+      <h2>SonicPods Lite</h2>
+      <p><strong>Price:</strong> $89</p>
+      <p><strong>Battery Life:</strong> 18 hours</p>
+      <p><strong>Water Resistance:</strong> IPX5</p>
+      <p><strong>Rating:</strong> ⭐⭐⭐⭐☆</p>
+      <button class="add-btn" onclick="addToCart('SonicPods Lite')">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="images/download (2).jpeg" alt="EchoBuds 2" />
+      <h2>EchoBuds 2</h2>
+      <p><strong>Price:</strong> $99</p>
+      <p><strong>Battery Life:</strong> 20 hours</p>
+      <p><strong>Water Resistance:</strong> IPX4</p>
+      <p><strong>Rating:</strong> ⭐⭐⭐☆☆</p>
+      <button class="add-btn" onclick="addToCart('EchoBuds 2')">Add to Cart</button>
+    </div>
+  </div>
+
+  <script>
+    function addToCart(productName) {
+      alert(productName + ' has been added to your cart!');
+    }
+  </script>
+
+</body>
+</html>
